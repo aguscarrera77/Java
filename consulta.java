@@ -11,5 +11,7 @@ public class consulta {
         int suma=number1 + number2;
         System.out.print("La suma es: "+ suma);
         sc.close();
+        
     }
 }
+

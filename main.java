@@ -1,7 +1,7 @@
 //primer archivo de java.
 
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         System.out.println("Hola a todos");
     String nombre="Roberto";

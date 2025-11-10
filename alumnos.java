@@ -47,7 +47,7 @@ for(int i=1;i<notas.length;i++){
 }
 
 System.out.println("La nota menor es: "+ menor);
-System.out.println("La nota mayot es: "+ mayor);
+System.out.println("La nota mayor es: "+ mayor);
 
 
 

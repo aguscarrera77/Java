@@ -1,9 +1,9 @@
-//modulos:en java a la funciones se les llama modulos.modulo es un blque de codigo que realiza una tarea. Que son reutilizables.
+//metodo:en java a la funciones se les llama modulos.modulo es un blque de codigo que realiza una tarea. Que son reutilizables.
 
 
 public class funcion {
     public static void saludar(){
-        System.out.println("Hola a todos soy un modulo de java.");
+        System.out.println("Hola a todos soy un metodo de java.");
     }
     //modulo con parametros.
     public static void saludarNombre(String nombre){

@@ -1,9 +1,7 @@
 //primer archivo de java.
 
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hola a todos");
+public class Main {        System.out.println("Hola a todos");
     String nombre="Roberto";
     int edad=108;
     boolean instructor=true;

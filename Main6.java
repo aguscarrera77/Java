@@ -13,11 +13,11 @@ public class Main6 {
         listado.add(new Alumno("Mirtha",90));
     //ahora armo el scanner que permite la busqueda dentro del arraylist.
         System.out.println("Ingrese el nombre del alumno que deseo buscar: ");
-        String buscado=sc.nextLine();
+        String buscado=sc.nextLine().trim().toLowerCase();
         boolean encontrado=false;
 
         for(Alumno a : listado){
-            if(a.getnombre.equals(buscado)){
+            if(a.getnombre().toLowerCase().equals(buscado)){
                 System.out.println("Alumno Encontrado.");
                 a.mostrarAlumno();
                 encontrado=true;
